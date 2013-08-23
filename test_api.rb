@@ -8,8 +8,8 @@ OptionParser.new do |opts|
     options[:clientid] = clientid
   end
 
-  opts.on("-s", "--secret SECRET", "client secret") do |clientid|
-    options[:secret] = clientid
+  opts.on("-s", "--secret SECRET", "client secret") do |secret|
+    options[:secret] = secret
   end
 
   opts.on("-u", "--username USERNAME", "username") do |username|
