@@ -8,18 +8,6 @@ OptionParser.new do |opts|
     options[:clientid] = clientid
   end
 
-  opts.on("-s", "--secret SECRET", "client secret") do |secret|
-    options[:secret] = secret
-  end
-
-  opts.on("-u", "--username USERNAME", "username") do |username|
-    options[:username] = username
-  end
-
-  opts.on("-p", "--password PASSWORD", "password") do |password|
-    options[:password] = password
-  end
-
   opts.on("-a", "--artist ARTIST", "artist") do |artist|
     options[:artist] = artist
   end
