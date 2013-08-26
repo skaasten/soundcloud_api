@@ -1,22 +1,26 @@
 require('soundcloud')
-require('optparse')
-options = {}
-OptionParser.new do |opts|
-  opts.banner = "Usage: artist_ascii_image.rb [options]"
 
-  opts.on("-c", "--clientid CLIENTID", "clientid") do |clientid|
-    options[:clientid] = clientid
-  end
+CLIENT_ID = '99054db844f287a9755eddf13a87cf2b'
 
-  opts.on("-a", "--artist ARTIST", "artist") do |artist|
-    options[:artist] = artist
-  end
+if ARGV.length != 1 
+  puts "Usage: ruby artist_ascii_image.rb ARTIST_NAME"
+  exit
+end
 
-end.parse!
+client = SoundCloud.new({:client_id => CLIENT_ID})
 
-client = SoundCloud.new({:client_id => options[:clientid],
-                          :client_secret => options[:secret],
-                          :username => options[:username],
-                          :password => options[:password]})
-artist = client.get("/users/#{options[:artist]}")
-STDOUT.print(`jp2a #{artist.avatar_url}`)
+artist_name = ARGV[0]
+begin
+  artist = client.get("/users/#{artist_name}")
+rescue
+  puts "Could not find artist '#{artist_name}'"
+  exit
+end 
+
+puts artist.avatar_url
+if artist.avatar_url.include? "default_avatar"
+  puts "Artist #{artist_name} does not have an cover image."
+  exit
+else
+  STDOUT.print(`jp2a --colors #{artist.avatar_url}`) 
+end
