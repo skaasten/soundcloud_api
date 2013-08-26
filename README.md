@@ -1,4 +1,4 @@
-soundcloud_api Artist Ascii Image
+SoundCloud api Artist Ascii Image
 ==============
 
 This command-line tool uses the soundcloud api and jp2a library (http://csl.sublevel3.org/jp2a/)
