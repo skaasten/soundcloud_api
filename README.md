@@ -1,4 +1,3 @@
-
 soundcloud_api Artist Ascii Image
 ==============
 
@@ -11,7 +10,8 @@ Download the jp2a library. On a mac with homebrew, this is done by:
 
   > brew install jp2a
 
-Usage: ruby artist_ascii_image.rb ARTIST_NAME
+Usage:
+  > ruby artist_ascii_image.rb ARTIST_NAME
 
 examples:
 
