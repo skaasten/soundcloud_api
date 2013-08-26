@@ -15,45 +15,32 @@ Usage:
 
 Examples:
 
-  > ruby artist_ascii_image.rb daft-punk
+  > ruby artist_ascii_image.rb phoenix
 
-00000000000KKKK0KKKKKXXXXXXXXXXXXXNXXXXXKK00O0000KKK00KKK0000000000OOOkOOk
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKXXXXXXXKKKKKKKKKXKK0KK0000000000000000OO
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWWWWWWWWWWNNNXXXNNNNNNNNNXXXXNNXXXXNNNN
-00KK0KK0000KKKKXXXXXK0XXNNNNNNNNNNKkdddOKKXXNNWNNNNWWWNNNNNNNNXXXNNWWWWWWW
-kkkkkkkkkkkkkOOOOOOOOOOOOO000K000d,.',',oxkO0KKKKKKXXXXXXXKKKK0000000000KK
-OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOk;..';:,,d0OOOOOOOOOO0OOOOOOOOOOOOO00OOkOO
-OOOOOOOOOOOOOOOOOkkkkkOOOOOOOO00Ol..'..,:x00OkkxxxxxxkkxxkkkOOOOOOOkkkkkkk
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkx:.,,,lxxxxxxxxdddddxxxxdxxxxkkkkkkkkkkxx
-OOOOOOOOOOOkkkkkkxxxxkkxxxxxxxxxddl',;;oxddddxxxxxxxxxxxxdddddddxxxxxxxxxx
-OOOOkkkkkkkkkkkkkkkxxkkkkxxxxdc,...,,,:c,',',:lddxxxxxxxxxxxxxxxxxxxxxxxxd
-OOOOOOOOOOOkkkxxxxxxxxxkkkkko.     ...'........,oxxxxxxxxxxxxxxxxxxxxxxxxx
-xxkkkkkkkkkkkkkOOOOkkkkkkkkd'       ......... ..'okkkkkkxxxxxkxxxxxxxxxxxx
-xxxxxxxxxxxxkkkkkkkkkxxxxxl.       .........    ..;odddddddddddddddddxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxd;.. ..  .........   ....:xxxxxxxxxxxxxxxkxxxxxxx
-kkxkkkxkkxxxxxkkkxxxxxxxxo'.'.;'             .,;,,:dkkkkkkkkxxxxxxxxxxxxkk
-ddddddddddxkkkkxxxxxxxxxxl'..,;'           .  ..;c;ldxxxxxxxxxxxxxxxxxxxxx
-xdddddddddxxkkkxxxxxdddxxo'..',.           .. ..;c;clodddddddddddddddxxxxx
-xxxxxxxdxxddddddddddddddxd;..'o'          ...  .:;:coddddddddddddddddddddx
-OOOOkxxdddddddddddddddddddc'.:l.        ......'cc::lxxxxxkkkxxxxxxxxxddddx
-OOOOkxdddoooddddxxxxddddddl,.''.       .......:c:ccodddddxxxxddxdddddxddxx
-xkkkkkxxdddddddddddxxdxxxxdl,..        ...:loooc:ldddddddddddxxxdddddddddx
-xxxxxxdddddddxdddxxxxxxxxkkxd:,..... ...,:c:,cdddxdxxxxxxdxxxxxxxxxxxkkkO0
-xxddddddddddxxddxxxxxxxxxxxxxo;''''';clcc:::;:oddddxxxxxxxkOOOOO000000K00O
-xxxxdxxxxxxxxxxxxxxxxxxxxxxdol;,''',,;clllloddxxxxxxxkkkOO00KOkkkkkkkkkkxx
-kkkkkkkkOOOOkkkkkkkkkkkkkkko..,'''''',,;codkkkkOOOOOO0OOkkkkxxxxxxxxxxxxxx
-OOOOOOOOkkkkOOOkkkkkkkkkkkOO;.''''''',;,,;codxOKK0Okkkkkkkkkkkkkkkkkkkkkkk
-kkkkkOOOkkkkkkkkkkkkOOOOOO00o.'''''..,l:'';:cloxOOkkkkkkkkkkkkkkkkkkkkkkkk
-0O0000OOOOOOO0OOO00000K000KKk:'.'''..'ll'',::odxxxxxxxxxxxxxxxxxxxxxxxxxxx
-kkkkkkkkkkkkkxxxxkkkkkkkkkkkkxl'.....'cd:'',;lxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxkkkkkkkkkl.....,oxo;''';odxkkkxxxkkkxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxkkkkkkkkkd:,'..,okxo:;;,:ldxxxxxxxkkkkkkkxxxxxxxxxxx
-dxdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxl,..'ckkkkkx:',cdxxxxxxxxkkkkkkxkxxxxkkkk
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxkkkkd;.'':xxkkkkl'';ldxkkxxxxxxxkkkkkOOOO000O
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:'',lxxxxxxdc,,;lxxxxxxxxxxxkkOO0000KK0k
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxl'';oxxxxxxxdl,,cdxxxxxxkkkOO00K0000OOkx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxddxxxo'.;oxxxxxxxxxl,:dkOOOO0OOOOOOkkkxxxxxxx
-xxxxxxxxxxxdddddddddddoooollllllool,.:dxxxxkkOOOOl;x0KK00Oxxxxxxxxxxxxxxxx
-
+    dddddddddddddddddddddddddddddddxdddddooodddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddollllccclllllclddxdddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddolc::co:..:xOOkxdodddooooodddddddddddddddddddddddd
+    ddddddddddddddddddddddoccclodxkxl';OOkxddddddddoollodddddddddddddddddddddd
+    ddddddddddddddddddddoc:cclllllodkdokkkkkkkkxxxxddooccodddddddddddddddddddd
+    dddddddddddddddddddo:::::::cloodxkkkOOOOOOOOkkkxxddlc:odddddddxxxxxxdddddd
+    ddddddddddddddddddoc:::::coodxxkkOOOO0000000OOkkkxxdoccoddolc:::;;:clddddd
+    ddddddddddddddddddl:::::coddxkkOOO0000KKK0000Okkkkxxol;;;,''..';cllodddddd
+    dddddddddddddddddoc::::clodxxkkOOO00KKKK0000OOkkkkxo;''.'''',cdkxdodxddddd
+    dddddddddddddddddoc:ccclodxxxkkOO000K000OOOOOOkkxl:'....'';cxOOxdodddddddd
+    dddddddddddddddddo::lcclodxxxkkkkOO000OOkkkkkxxd:.....'',ck0Okxdoodddddddd
+    ddddddddddddddddddc:llcllodxxxxxkkkkOOkkkxxdddo;.....'cxO0000O0Okxxddddddd
+    ddddddddddddxddoc:;:clcllodddxxxxxxxxxkxxxdddo;.....'cxOKK0000000Okddddddd
+    ddddddddddoc:;,'...:dkxxxdoddxxddddddxxddddooc.....:xxxk0000OO0000Okxddddd
+    dddddddl:;''',,,'..okocclddddkOkdoooooooooolc:'';odddxOO00000000000Okxdddd
+    ddddoc:;:cllloool::dxdollooooxO0xlcloxkO00OkxxxddxxxkO00000000000000kxdddd
+    dddddooodddddxkO0Okdodddlllok00Olcd0KXXXNXKK0OOkkxk0KK0000000000000Okddddd
+    ddddddddddooooOKOxdoll:;,,:oxkkolxKKXKKKKKXXKKK00000KK000000000000Okxddddd
+    ddddddddddddddxkO00Oxd:,,,;:cclodd0KKKKKKKKKKKKK00000000000000000Okxdddddd
+    ddddddddddddddddxkOOOxolcoxdxxdddokKK000K00KKKKKK00000000000OOOOOkxddddddd
+    ddddddddddddddddddxOxddxkO00KK0x:coO0000000000KKK000000000OOOOOkxddddddddd
+    ddddddddddddddddddxOkkkO00xxkkxdlcclxO00000000000000000OOOOOOkxddddddddddd
+    dddddddddddddddddddkOO00OxddddddddollodkO000000000000OOOkkxxdddddddddddddd
+    dddddddddddddddddddddddddddddddddddddoooodxxxkkkkkkkkxxddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 
