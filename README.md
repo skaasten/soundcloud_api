@@ -1,21 +1,29 @@
-SoundCloud api Artist Ascii Image
-==============
+# SoundCloud api Artist Ascii Image
+
 
 This command-line tool uses the soundcloud api and jp2a library (http://csl.sublevel3.org/jp2a/)
 to display the cover image (avatar) for an artist (user) on soundcloud.
 
-Prerequesites: 
+## Prerequesites: 
+
+Gem install the soundcloud ruby api wrapper
+```bash
+gem install soundcloud
+```
 
 Download the jp2a library. On a mac with homebrew, this is done by:
+```bash
+brew install jp2a
+```
 
-  > brew install jp2a
-
-Usage:
-  > ruby artist_ascii_image.rb ARTIST_NAME
-
-Examples:
-
-  > ruby artist_ascii_image.rb phoenix
+## Usage:
+```bash
+bash ruby artist_ascii_image.rb ARTIST_NAME
+```
+## Examples:
+```bash
+ruby artist_ascii_image.rb phoenix
+```
 
     dddddddddddddddddddddddddddddddxdddddooodddddddddddddddddddddddddddddddddd
     ddddddddddddddddddddddddddddollllccclllllclddxdddddddddddddddddddddddddddd
