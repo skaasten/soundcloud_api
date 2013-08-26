@@ -17,7 +17,6 @@ rescue
   exit
 end 
 
-puts artist.avatar_url
 if artist.avatar_url.include? "default_avatar"
   puts "Artist #{artist_name} does not have an cover image."
   exit
