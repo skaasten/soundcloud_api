@@ -13,9 +13,9 @@ Download the jp2a library. On a mac with homebrew, this is done by:
 Usage:
   > ruby artist_ascii_image.rb ARTIST_NAME
 
-examples:
+Examples:
 
-ruby artist_ascii_image.rb daft-punk
+  > ruby artist_ascii_image.rb daft-punk
 
 00000000000KKKK0KKKKKXXXXXXXXXXXXXNXXXXXKK00O0000KKK00KKK0000000000OOOkOOk
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKXXXXXXXKKKKKKKKKXKK0KK0000000000000000OO
