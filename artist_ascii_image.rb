@@ -13,7 +13,7 @@ artist_name = ARGV[0]
 begin
   artist = client.get("/users/#{artist_name}")
 rescue
-  puts "Could not find artist '#{artist_name}'"
+  puts "Could not find artist '#{artist_name}'."
   exit
 end 
 
