@@ -18,7 +18,7 @@ rescue
 end 
 
 if artist.avatar_url.include? "default_avatar"
-  puts "Artist #{artist_name} does not have an cover image."
+  puts "Artist #{artist_name} does not have a cover image."
   exit
 else
   STDOUT.print(`jp2a --colors #{artist.avatar_url}`) 
