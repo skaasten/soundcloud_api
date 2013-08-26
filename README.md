@@ -1,10 +1,9 @@
 
-
 soundcloud_api Artist Ascii Image
 ==============
 
 This command-line tool uses the soundcloud api and jp2a library (http://csl.sublevel3.org/jp2a/)
-to display the cover image (avatar) for a artist (user) on soundcloud.
+to display the cover image (avatar) for an artist (user) on soundcloud.
 
 Prerequesites: 
 
